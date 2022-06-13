@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Event</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="alert alert-success">change event</div>
+                <div class="mb-2">
+                    <label for="" class="form-label">帳號</label>
+                    <input type="text" class="form-control" id="account">
+                </div>
+                <div class="alert alert-info">您現在輸入的帳號為: <span id="account-sync"></span></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="alert alert-success">分數計算</div>
+                <div class="mb-2">
+                    <label for="" class="form-label">分數</label>
+                    <input type="number" min="0" max="100" class="form-control" id="scope">
+                </div>
+                <div class="mb-2 text-end">
+                    <button class="btn btn-danger" id="calc-btn">計算</button>
+                </div>
+                <div class="alert alert-info">分數等級為: <span id="scope-level"></span></div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script src="js/js_event.js"></script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="alert alert-primary">
+            BMI
+        </div>
+        <div class="mb-2">
+            <label for="" class="form-label">身高(公分)</label>
+            <input type="number" class="form-control" id="height">
+        </div>
+        <div class="mb-2">
+            <label for="" class="form-label">體重(公斤)</label>
+            <input type="number" class="form-control" id="weight">
+        </div>
+        <div class="mb-2 text-end">
+            <button class="btn btn-primary" id="calc">計算</button>
+        </div>
+
+        <div class="alert alert-success" id="level-color">
+            您的體重 <span id="level"></span>
+        </div>
+    </div>
+</body>
+<script src="js/bmi.js"></script>
+</html>
